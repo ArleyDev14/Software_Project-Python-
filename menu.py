@@ -19,7 +19,6 @@ def menu_admin():
     print("Ingresa 5 para ELIMINAR un producto: ")
     print("Ingresa 6 para CREAR un servicio: ")
     print("Ingresa 7 para ELIMINAR un servicio: ")
-    print("Ingresa 8 para AÑADIR una venta")
     print("Ingresa 11 para guardar cambios y salir: ")
     print("********************************************************")
 

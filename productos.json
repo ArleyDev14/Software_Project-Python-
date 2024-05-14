@@ -23,6 +23,11 @@
             "nombre": "kalley15pg",
             "precio": 1000000,
             "caracteristicas": "camara firme"
+        },
+        {
+            "nombre": "tv samsung 15pg",
+            "precio": 200000.0,
+            "caracteristicas": "15 pulgadas"
         }
     ]
 }
