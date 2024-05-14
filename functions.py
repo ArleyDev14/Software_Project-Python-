@@ -548,6 +548,7 @@ def compra_algo(datos):
                         producto["cantidad"] = cantidad
                         datosv["productos"].append(producto)
                         moduser = True
+                        break
                 i = 0
                 if moduser == True:
                     for i in range(len("celular")):
@@ -704,7 +705,8 @@ def compra_algo(datos):
                         moduser = True
                 i = 0
                 if moduser == True:
-                    if  datoss["hogar"][i]["nombre"] == nombrep:
+                    for i in range(len("hogar")):
+                        if  datoss["hogar"][i]["nombre"] == nombrep:
                             break
                     while datoss["hogar"][i]["nombre"] != nombrep:
                         print("Producto no encontrado")
@@ -755,7 +757,8 @@ def compra_algo(datos):
                         moduser = True
                 i = 0
                 if moduser == True:
-                    if  datoss["fibraoptica"][i]["nombre"] == nombrep:
+                    for i in range(len("fibraoptica")):
+                        if  datoss["fibraoptica"][i]["nombre"] == nombrep:
                             break
                     while datoss["fibraoptica"][i]["nombre"] != nombrep:
                         print("Producto no encontrado")
@@ -806,7 +809,8 @@ def compra_algo(datos):
                         moduser = True
                 i = 0
                 if moduser == True:
-                    if  datoss["pospago"][i]["nombre"] == nombrep:
+                    for i in range(len("pospago")):
+                        if  datoss["pospago"][i]["nombre"] == nombrep:
                             break
                     while datoss["pospago"][i]["nombre"] != nombrep:
                         print("Producto no encontrado")
@@ -857,7 +861,8 @@ def compra_algo(datos):
                         moduser = True
                 i = 0
                 if moduser == True:
-                    if  datoss["prepago"][i]["nombre"] == nombrep:
+                    for i in range(len("prepago")):
+                        if  datoss["prepago"][i]["nombre"] == nombrep:
                             break
                     while datoss["prepago"][i]["nombre"] != nombrep:
                         print("Producto no encontrado")

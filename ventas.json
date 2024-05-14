@@ -4,28 +4,13 @@
             "usuario": "1096539632",
             "cantidad": 1,
             "nombre": "honorx7"
-        },
-        {
-            "usuario": "1096539632",
-            "cantidad": 1,
-            "nombre": "honorx7"
         }
     ],
     "servicios": [
         {
             "usuario": "1096539632",
             "cantidad": 1,
-            "nombre": "plan pospago"
-        },
-        {
-            "usuario": "1096539632",
-            "cantidad": 1,
-            "nombre": "plan pospago"
-        },
-        {
-            "usuario": "1096539632",
-            "cantidad": 1,
-            "nombre": "plan prepago"
+            "nombre": "hogar20gb"
         }
     ]
 }

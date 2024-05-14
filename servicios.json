@@ -1,5 +1,16 @@
 {
-    "hogar": [],
+    "hogar": [
+        {
+            "nombre": "plan hogar 15gb",
+            "precio": 15000.0,
+            "gbytes": "15"
+        },
+        {
+            "nombre": "hogar20gb",
+            "precio": 200000.0,
+            "gbytes": "20GygaBytes de internet + telefonia"
+        }
+    ],
     "pospago": [
         {
             "nombre": "plan pospago",
@@ -19,6 +30,28 @@
             "nombre": "plan prepago",
             "precio": 15000.0,
             "gbytes": "15"
+        }
+    ],
+
+    "plannuevos":[
+        {
+            "nombre":"plan hogar 15gb",
+            "precio": 5000,
+            "gbytes":"20"
+        }
+    ],
+    "planregulares":[
+        {
+            "nombre":"plan hogar 15gb",
+            "precio": 5000,
+            "gbytes":"20"
+        }
+    ],
+    "planleales":[
+        {
+            "nombre":"plan hogar 15gb",
+            "precio": 5000,
+            "gbytes":"20"
         }
     ]
 }

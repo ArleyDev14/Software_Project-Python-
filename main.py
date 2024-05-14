@@ -4,26 +4,27 @@ from menu import *
 from datos import *
 
 #const
-BASE_DATOS_USERS = "users.json"
-BASE_DATOS_PRODUCTOS = "productos.json"
-BASE_DATOS_SERVICIOS = "servicios.json"
-BASE_DATOS_VENTAS = "ventas.json"
-datoss = cargar_datos(BASE_DATOS_SERVICIOS)
-datosp = cargar_datos(BASE_DATOS_PRODUCTOS)
-datosu = cargar_datos(BASE_DATOS_USERS)
-datosv = cargar_datos(BASE_DATOS_VENTAS)
+try: 
+    BASE_DATOS_USERS = "users.json"
+    BASE_DATOS_PRODUCTOS = "productos.json"
+    BASE_DATOS_SERVICIOS = "servicios.json"
+    BASE_DATOS_VENTAS = "ventas.json"
+    datoss = cargar_datos(BASE_DATOS_SERVICIOS)
+    datosp = cargar_datos(BASE_DATOS_PRODUCTOS)
+    datosu = cargar_datos(BASE_DATOS_USERS)
+    datosv = cargar_datos(BASE_DATOS_VENTAS)
 
 
-#REPORTE ERRORES
-import traceback
-from datetime import datetime
+    #REPORTE ERRORES
+    import traceback
+    from datetime import datetime
 
-def log_error(exception):
-    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    error_message = f"{timestamp}: {str(exception)}\n"
-    with open("Errores.txt", "a") as file:
-        file.write(error_message)
-        traceback.print_exc(file=file)
+    def log_error(exception):
+        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        error_message = f"{timestamp}: {str(exception)}\n"
+        with open("Errores.txt", "a") as file:
+            file.write(error_message)
+            traceback.print_exc(file=file)
 
 #|-------------------------------------------------------------------------------------|
 #|         !!!!!!!!!!!!!!!!!!!!!!!!   REGLAS DE USO   !!!!!!!!!!!!!!!!!!!!!!!!         |
@@ -31,7 +32,6 @@ def log_error(exception):
 #|                                    Contraseña =  admin123                           |
 #|  Trata de escribir todo en Minusculas                                               |
 #|-------------------------------------------------------------------------------------|
-try:
     while True:
         menu_principal()
         opc = pedir_opc()
@@ -65,8 +65,6 @@ try:
                     break
             else:
                 print("¡ERROR!Contraseña o Usuario incorrectos")
-            
-            
 
 
         #GLOBAL
@@ -86,11 +84,13 @@ try:
         elif opc == 11:
             print("¡Hasta la próxima!")
             break
+
+
+
+    guardar_datos(datosv, BASE_DATOS_VENTAS)
+    guardar_datos(datoss, BASE_DATOS_SERVICIOS)
+    guardar_datos(datosp, BASE_DATOS_PRODUCTOS)
+    guardar_datos(datosu, BASE_DATOS_USERS)
+
 except Exception as e:
     log_error(e)
-
-
-guardar_datos(datosv, BASE_DATOS_VENTAS)
-guardar_datos(datoss, BASE_DATOS_SERVICIOS)
-guardar_datos(datosp, BASE_DATOS_PRODUCTOS)
-guardar_datos(datosu, BASE_DATOS_USERS)
