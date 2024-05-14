@@ -1,0 +1,28 @@
+{
+    "celular": [
+        {
+            "nombre": "iphone11",
+            "precio": 1000000,
+            "caracteristicas": "camara firme"
+        },
+        {
+            "nombre": "honorx7",
+            "precio": 600000.0,
+            "caracteristicas": "8ram, 256gb espacio"
+        }
+    ],
+    "computador": [
+        {
+            "nombre": "asusxr",
+            "precio": 1000000,
+            "caracteristicas": "camara firme"
+        }
+    ],
+    "televisor": [
+        {
+            "nombre": "kalley15pg",
+            "precio": 1000000,
+            "caracteristicas": "camara firme"
+        }
+    ]
+}

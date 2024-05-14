@@ -1,0 +1,26 @@
+{
+    "productos": [
+        {
+            "nombre": "iphone11",
+            "usuario": "1096539634",
+            "cantidad": 1
+        },
+        {
+            "nombre": "kalley15pg",
+            "usuario": "1096539632",
+            "cantidad": 5
+        }
+    ],
+    "servicios": [
+        {
+            "nombre": "plan pospago",
+            "cantidad": "3",
+            "usuario": "1096539639"
+        },
+        {
+            "nombre": "plan pospago",
+            "usuario": "1096539632",
+            "cantidad": 1
+        }
+    ]
+}

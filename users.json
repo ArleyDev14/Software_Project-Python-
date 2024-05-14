@@ -1,0 +1,32 @@
+{
+    "user_nuevo": [
+        {
+            "nombre": "shakira",
+            "documento": "1096539634",
+            "numtelefono": "3001897321",
+            "direccion": "cra18"
+        },
+        {
+            "nombre": "pique",
+            "documento": "1096539638",
+            "direccion": "cra89",
+            "numtelefono": "3001897356"
+        }
+    ],
+    "user_regular": [
+        {
+            "nombre": "samuel",
+            "documento": "1096539631",
+            "direccion": "cra12",
+            "numtelefono": "3001897312"
+        }
+    ],
+    "user_leal": [
+        {
+            "nombre": "Arley Mantilla",
+            "documento": "1096539632",
+            "numtelefono": "3001897353",
+            "direccion": "cra18"
+        }
+    ]
+}

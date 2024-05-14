@@ -1,0 +1,38 @@
+{
+    "hogar": [
+        {
+            "nombre": "plan hogar 15gb",
+            "precio": 15000.0,
+            "gbytes": "15",
+            "bodega": 4,
+            "ventas": 4
+        }
+    ],
+    "pospago": [
+        {
+            "nombre": "plan pospago",
+            "precio": 15000.0,
+            "gbytes": "15",
+            "bodega": 5,
+            "ventas": 3
+        }
+    ],
+    "fibraoptica": [
+        {
+            "nombre": "plan fibraoptica",
+            "precio": 15000.0,
+            "gbytes": "15",
+            "bodega": 4,
+            "ventas": 3
+        }
+    ],
+    "prepago": [
+        {
+            "nombre": "plan prepago",
+            "precio": 15000.0,
+            "gbytes": "15",
+            "bodega": 5,
+            "ventas": 3
+        }
+    ]
+}
